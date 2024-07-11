@@ -1,0 +1,6 @@
+git init
+git add README.md
+git comit -m "first comit"
+git branch - main
+git remote add origin https://github.con/PT2309/testing_github.git
+git push -u origin main
