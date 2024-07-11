@@ -1,0 +1,9 @@
+git revert id
+git status
+git log
+git --abort revert
+git log --oneline
+git reset id
+git reset --hard id
+git branch branch_name
+git checkout -b branch_name
