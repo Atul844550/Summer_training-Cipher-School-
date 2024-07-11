@@ -1,0 +1,40 @@
+constructor in java.
+
+employee.java
+
+public class employee
+{
+
+//Constructor 
+//identification
+1.1 same name  as class name
+1.2 no return Type.
+//<<purpose>>
+
+//1.1 it creates/initializes Object in memory(ram).
+"1.2 you can use constructor block to initial some default values.
+
+int employeeid;
+int salary;
+String dept;
+
+employee(int empid, int sal, int dep)
+{
+employeeid=empid;
+salary=sal;
+dept=dep;
+}
+
+
+public static void main(String[] args)
+{
+Employee harsha= new employee(101, 3000, "testing");
+
+Employee varsha= new employee(102, 4000, "SDE");
+
+System.out.println(harsha.employeeid+ ""+ harsha.salary+""+ harsha.dept);
+System.out.println(varsha.employeeid+""+ varsha.salary+""+ varsha.dep);
+
+}
+}
+

@@ -1,0 +1,35 @@
+inheritance in java.
+
+furniture.java
+
+// Inheritance
+// 1.1 Memory Usage Optimization
+//1.2 Code Reusability
+— faster development
+central code (Easy to debug/test)
+// productivity/efficiency
+public class Furniture {
+int width;
+int height;
+
+void display(String item) {
+System.out.println( item +" Width"+width+"height"+height);
+}
+public static void main(String[] args){
+
+Chair neelkamat = new Chair();
+neelkamal. foo();
+}
+}
+class Chair extends Furniture{
+
+void foo() 
+{width=l0; height=20; display("chair"); }
+}
+class Table extends Furniture{
+void foo() {width=30; width=30; height=50; diplay("table"); }
+}
+class Almira extends Furniture(
+void foo(){width=40; height=70; display("almirah"); }
+}
+

@@ -1,0 +1,72 @@
+what is Abstraction in java.
+
+test1.java
+
+public class Test1
+{
+interface olaCustomer{
+void bookCab();
+void findARide();
+void rentCab();
+void rateDriver();
+void scheduleCab();
+void cancetCab();
+void addMoneytoWallet();
+void raiseTicket();
+void signup();
+void signln();
+}
+
+interface olaDriver{
+void acceptBooking();
+void getCustomerLocation();
+void setAvai tableStatus();
+void getMyComission();
+void raiseMoneyTransferRequest();
+void cat ICustomer();
+void setUpYourVehicIe();
+void customerFeedback();
+}
+
+interface olaowner
+{
+void getDriverRecords() ;
+void getReportByDriverID();
+void getReportByRegion();
+void getTotalRe+nue();
+void getCustomersFeedback();
+void addDriver();
+void removeDriver();
+void changeorivertatus();
+}
+
+public class Test1 implements olaowner, olaDriver, olaCustomer
+{
+public static void main(String[] args){
+
+otaCustomer cust=new Test1();
+olaDriver manoj = new test1();
+}
+
+@override public void removeDriver()
+{
+}
+
+@override public void addDriver()
+{
+}
+
+@override public void rateDriver()
+{
+}
+
+@override public void signup()
+{
+}
+
+@override public void signin()
+{
+}
+
+}
+

@@ -1,0 +1,117 @@
+command line argument, this, and final, super keyword.
+
+
+// this keyword program
+
+Test1.java
+
+public class Test1
+{
+// this keyword
+int arg=5;
+Test1()
+{
+System.out.println("! i am default constructor");
+}
+Test1(int arg) 
+{
+this();
+this.arg=arg;
+}
+public static void main(String[] args){
+
+int arg=l0;
+Test1 obj = new Test1(10);
+System.out.println(obj.arg);
+}
+}
+
+
+// super keyword program
+
+App.java
+
+class App
+{
+App( ) 
+{
+System.out.println("constructor of App");
+}
+App(int num)
+{
+System.out.println(nun);
+}
+}
+public class Test2 extends App
+{
+Test2()
+{
+super(20); // used to call constructor of base class
+System.out.println("constructor Of Test2");
+}
+public static void main(String[] args)
+{
+new Test2();
+}
+}
+
+//if we call constructor of derived then the first constructor
+//be called will be the constructor Of Base and then derived class one will be called.
+
+// final keyword program.
+
+final class father
+{
+public final String lastname="obroi";
+
+public final void foodHabit() 
+{
+System.out.println("i like Salty!!");
+}
+}
+class son extends father
+{
+// public void foodHabit() {
+lastname="Malhotra" // here will get the error as the variable is final.
+System.out.println("i like sweet");
+}
+}
+public crass Test3 
+{
+public static void args) {
+}
+}
+
+
+//task questions.
+
+// Write a Program to Show multilevel inheritance for Example
+// Create a Class A, B and C . B Should be a child class for A and C
+// Should be a child class of B
+
+class A {
+    void displayA() {
+        System.out.println("Class A");
+    }
+}
+
+class B extends A {
+    void displayB() {
+        System.out.println("Class B");
+    }
+}
+
+class C extends B {
+    void displayC() {
+        System.out.println("Class C");
+    }
+}
+
+public class MultilevelInheritance {
+    public static void main(String[] args) {
+        C obj = new C();
+        obj.displayA();
+        obj.displayB();
+        obj.displayC();
+    }
+}
