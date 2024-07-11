@@ -1,0 +1,12 @@
+git init
+git status
+git log --oneline
+git checkout checkout-commit
+git commit master
+git check -b branch_name
+git branch
+git add.
+git merge write_name
+git merge master
+git commit -m "message"
+git branch -d branch_name
