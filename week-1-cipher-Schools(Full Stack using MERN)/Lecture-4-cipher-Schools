@@ -1,0 +1,7 @@
+git status
+git add file_name
+git commit -m "message"
+git log --oneline
+git add .
+git checkout id
+git checkout master
