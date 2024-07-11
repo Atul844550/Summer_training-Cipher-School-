@@ -1,0 +1,11 @@
+git status
+gut rm --cached file_name.extension
+git commit -m "message"
+git log
+git --global user
+git config --global user.name "ABC"
+git conig user.name
+
+git config --global user.mail "abc@gmail.com"
+git config --global user.mail
+git log --oneline
