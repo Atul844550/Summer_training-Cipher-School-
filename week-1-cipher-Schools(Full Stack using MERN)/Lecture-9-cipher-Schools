@@ -1,0 +1,82 @@
+page1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure magnam libero corporis sapiente reiciendis est, dolorem, neque tempora accusantium vel debitis corrupti dolorum saepe. Enim iusto consectetur nobis harum!
+
+    </p>
+
+    <h2> heading 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quas magnam in illum omnis, aliquid nihil necessitatibus veniam error repellat consectetur illo ut fuga molestias deserunt nulla nam provident temporibus.</p>
+
+    <h3>heading 3</h3>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+
+    <h4> heading 4</h4>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+
+    <ol>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+    </ol>
+
+    <ol>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 1</li>
+    <li>list 4</li>
+    </ol>
+
+    <ul>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+    </ul>
+
+
+    <h2>heading 2</h2>
+    <a href="https://www.google.com" target="_blank">go to google</a>
+    <hr/>
+    <a href="./second.html"> go to second page</a>
+    <hr/>
+
+    <img src="C:\Users\DELL\Pictures\Screenshots" alt="this page">
+   
+    
+</body>
+</html>
+
+
+
+page2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    this is a second page.
+
+    <a href="./lecture8.html"> go back</a>
+</body>
+</html>
+
