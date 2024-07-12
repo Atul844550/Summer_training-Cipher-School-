@@ -1,0 +1,63 @@
+semantics.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> html5 semantics</h1>
+        <nav>
+            <ul>
+                <li><a href="./../index1.html">home</a></li>
+                <li><a href="./forms.html">subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>blog 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nisi eius assumenda laboriosam eligendi cum, eos voluptates soluta amet rem sunt animi enim sed ipsa consequatur. Provident sequi quibusdam ea!</p>
+
+        </section>
+        <article>
+            <h2> chrome browser</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque nulla in similique maiores rerum ducimus provident. Error explicabo dolore necessitatibus eligendi ratione, deleniti consectetur repudiandae, sit, excepturi ab rem?</p>
+
+        </article>
+    </main>
+    
+</body>
+</html>
+
+
+index1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <h1> welcome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sit? Reprehenderit, officiis minima officia aut sed totam. Et, nihil aliquam? Commodi, unde magnam. Rerum necessitatibus nobis dolor perferendis totam consectetur!</p>
+
+
+    </div>
+    
+    <div id="about">
+        <hr/>
+        <h2> know more...</h2>
+        <!--inline page-->
+        <a href="https://www,google.com" target="_blank">google</a>
+        <a href="./pages/two.html">about us</a>
+        <a href="./pages/forms.html"> subscribe</a>
+        </div>
+</body>
+</html>
