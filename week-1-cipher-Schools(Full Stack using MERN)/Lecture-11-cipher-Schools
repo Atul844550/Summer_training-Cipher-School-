@@ -1,0 +1,31 @@
+index.html
+
+//using inline css and block internal css. 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <header style="background-color: bisque; color:aqua ;">
+        <h1> intro to CSS </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis voluptatibus culpa voluptas? Recusandae rem facere, enim voluptatem sunt, necessitatibus minima illum quisquam esse et totam. Voluptates numquam laborum assumenda?</p>
+
+    </header>
+    <section style="background-color: bisque; color:aqua ;">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ad? Facilis autem harum nihil deserunt iste odit laboriosam blanditiis voluptatem aliquam neque tempore iusto itaque repellendus quibusdam voluptatum, facere amet.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo consequatur, placeat rem exercitationem blanditiis porro iure, fuga commodi reiciendis, autem nesciunt dolorem molestiae iste fugiat ea. Illum, labore sunt!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia ut dicta ea debitis nesciunt tempore perspiciatis saepe, vero, accusantium dolore aspernatur! Nobis consequuntur quasi quae quos corrupti delectus explicabo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum voluptatibus nulla ipsum vero, illum, placeat excepturi, harum quaerat asperiores culpa hic nihil. Voluptatem totam eaque debitis fugit corporis reprehenderit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consectetur, et sapiente fugit soluta beatae doloribus. Suscipit, ipsum modi aspernatur debitis tempora tenetur, at fugit obcaecati, omnis a perferendis iure.</p>
+    </section>
+</body>
+</html>
