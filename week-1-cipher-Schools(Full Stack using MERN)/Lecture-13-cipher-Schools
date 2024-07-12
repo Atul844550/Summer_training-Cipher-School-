@@ -1,0 +1,81 @@
+box.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="box.css">
+</head>
+<body>
+    <header id="header">
+        <h1> external styling</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sapiente aut similique iure. Eum quia, vel, itaque labore et explicabo dicta libero repellat ipsa harum quasi pariatur est numquam ad!</p>
+
+    </header>
+
+    <div id=" box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur corrupti quos dicta numquam id consectetur molestiae dolores et tempora! Voluptatibus eos libero perspiciatis reprehenderit aliquid, aliquam deleniti odio ipsam exercitationem.</p>
+
+    </div>
+
+    <div id=" box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur corrupti quos dicta numquam id consectetur molestiae dolores et tempora! Voluptatibus eos libero perspiciatis reprehenderit aliquid, aliquam deleniti odio ipsam exercitationem.</p>
+        
+    </div>
+
+    <div id=" box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur corrupti quos dicta numquam id consectetur molestiae dolores et tempora! Voluptatibus eos libero perspiciatis reprehenderit aliquid, aliquam deleniti odio ipsam exercitationem.</p>
+        
+    </div>
+
+    <div id=" box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur corrupti quos dicta numquam id consectetur molestiae dolores et tempora! Voluptatibus eos libero perspiciatis reprehenderit aliquid, aliquam deleniti odio ipsam exercitationem.</p>
+        
+    </div>
+
+    <div id=" box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur corrupti quos dicta numquam id consectetur molestiae dolores et tempora! Voluptatibus eos libero perspiciatis reprehenderit aliquid, aliquam deleniti odio ipsam exercitationem.</p>
+        
+    </div>
+
+    <div id=" box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur corrupti quos dicta numquam id consectetur molestiae dolores et tempora! Voluptatibus eos libero perspiciatis reprehenderit aliquid, aliquam deleniti odio ipsam exercitationem.</p>
+        
+    </div>
+    
+</body>
+</html>
+
+box.css
+
+p{
+    color: blueviolet;
+}
+
+header{
+    color: bisque;
+}
+
+#header
+{
+    margin:10px 5px 10px 5px;
+    border:3px dotted cyan;
+    padding:5px;
+
+}
+
+
+
+
+#box
+{
+    margin: 10px;
+    border: 2px dashed black;
+    padding: 5px;
+    width:200px;
+    height:200px;
+    overflow: scroll;
+    display: inline-block;
+}
