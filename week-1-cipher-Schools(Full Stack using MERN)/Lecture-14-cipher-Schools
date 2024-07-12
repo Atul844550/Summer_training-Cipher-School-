@@ -1,0 +1,126 @@
+pseudo.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>heading</h1>
+    </header>
+    <div id="header">
+    <h2>pseudo classes</h2>
+    <a href="#">click</a>
+    </div>
+
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, culpa saepe? Impedit, itaque molestias accusamus quisquam ratione maiores explicabo vel numquam eius libero, distinctio assumenda, corrupti saepe quis et? Minima.</p>
+
+    
+</body>
+</html>
+
+
+pseudo.css
+
+#header:hover 
+{
+    background: Lightblue;
+    color: peru;
+    padding: 100px;
+}
+    
+a:link 
+{
+    color: purple;
+}
+
+a:visited
+{
+    color:black;
+}
+
+/*
+
+a: active(
+color:
+black;
+/ • Position Property
+static
+relative
+f ixed
+absolute
+
+*/
+
+header{
+    position: static;
+    border: 2px dotted red;
+}
+
+header
+{
+    position: relative;
+    left:50px;
+    top:100px;
+    border:2px dotted rebeccapurple;
+}
+
+header 
+{
+    position: t i xed;
+    top: 1Øpx;
+    left: 230px;
+    background: lightgreen;
+    color: white;
+    text-alrgn•. center;
+    width: Søøpx;
+}
+header{
+    position: re lat ive;
+    border: 2px dashed Dred;
+}
+header{
+    position: absolute;
+    width: 2øøpx;
+    height: 2øøpx;
+    border: lpx dashed Ogreen;
+    top: 50px;
+    right: øpx;
+}
+
+
+#nav ul{
+    margin: Iøpx auto;
+}
+#nav ul li{
+    display: inline—b lock;
+    font-weight: bold;
+}
+
+#para{
+    position: sticky;
+    top: 25Øpx;
+    background: blue;
+}
