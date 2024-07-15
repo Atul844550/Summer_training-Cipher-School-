@@ -1,0 +1,77 @@
+function in javascript
+
+
+//ES5- functionally scoped (var)
+//es6-block scoped (let, const)
+// var abc = 10
+function testing(){
+var abc = 20;
+console.log( abc);
+// Block scope
+if(1)
+{
+Var xyz ='block scoped';
+console.log("Inside If, xyz); 
+console.log(abc);
+}
+console.log("Outside if", xyz);
+}
+testing(); // calling a function
+
+// var name ="Cipher";
+let year =2020;   //global scope
+function test()
+{
+console.log( name ) ;
+console.log(year);
+}
+test();
+
+// Function Declaration and Function Expression
+// Hoisting
+myFunc ( )
+myFunc2()
+function myfun()
+{
+console.log("Inside myFunc Declaration");
+// function expression
+let myFunc2=function()
+{
+console. tog("inside myfun2 function expression");
+}
+
+// console.log(name2)
+name();
+// var name2= "mrudula";
+var name=function()
+{
+console.log("hello");
+}
+
+
+// Arrow Functions-es6 feature
+// this--context
+
+let newfunc ()
+{
+console.log("Arrow functions Created");
+console.log(this);
+}
+newFunc ( );
+
+let funcExp=function()
+{
+console.log("Function expression Created");
+console.log(this);
+}
+funcExp( ) ;
+
+let newFunc=(name,context)->{
+
+console.log("arrow", context);
+console.log(name);
+};
+newFunc("cipher", this); // argument
+//oneline
+let newFunc = name->console. log(name); // Arrow
+newFunc("cipher"); // argument
