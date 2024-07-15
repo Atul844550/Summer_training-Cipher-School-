@@ -1,0 +1,34 @@
+index.html
+
+<div id= "root"></div>
+<div id="root2"></div>
+
+
+index.css
+
+.pizza
+{
+border: Ipx solid black;
+width: 200px;
+podding: 10px;
+display: inline-block;
+background: lightsalmon;
+color: white;
+}
+
+index.js
+
+function pizza()
+{
+return(
+// JSX javascript XML
+// React.createElement(dtv,......)
+<div class="pizza">
+<h1>Pizza</h1>
+</div>
+)
+}
+
+// function(component), where to add on the DOM 
+ReactDOM.render(pizza(), document.getElementById("root");
+ReactDOM.render(pizza(), document.getElementById("root2");
