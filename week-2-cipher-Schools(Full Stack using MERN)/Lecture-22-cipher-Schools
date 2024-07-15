@@ -1,0 +1,57 @@
+App.js
+
+import logo from './logo.svg';
+import './App.css';
+function App() {
+return (
+<div className="App">
+<h1> first react</h1>
+</div>
+export default App;
+
+
+// class based components
+class App extends Component{
+render() 
+{
+return(
+<h1> This is a class component</h1>
+)
+}
+}
+
+
+
+
+index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import'./index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+<App/>
+document .getElementById('root');
+);
+// If you want to start measuring performance in your app. pass a funct ion
+// to log results (for example: reportwebV1taIs(consoIe. log))
+// or send to an analytics endpoxrt. Learn more: https•.//bit. ly/CRA-v1tals
+reportWebVitals();
+
+
+
+example.js
+
+import React from 'react';
+// functional Component
+// Capital Letter naming convention
+let Pizza = (props)->{
+return(
+<div class= 'pizza'>
+<h1>{props.brand.toUpperCase()}</hl>
+<p>{props.description}</p>
+</div>
+)
+}
