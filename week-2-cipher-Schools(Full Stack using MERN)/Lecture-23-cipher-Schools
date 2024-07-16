@@ -1,0 +1,162 @@
+App.js
+
+
+function App(){
+
+return(
+
+<div classNane="App">
+<header className="App-header">
+<img src={logo} className= "APP-logo" alt="logo"/>
+<p>
+edit <code> src/App.js</code> and save to reload.
+</p>
+<a
+className="App-link"
+href="https://react.org"
+target= "_blank"
+rel= "noopener" noreferrer"
+>
+learn react
+</a>
+</header>
+</div>
+);
+}
+export default App;
+
+
+
+
+index.js
+
+import React, {component} from 'react'};
+
+function App()
+{
+return(
+<div classname="App">
+<h1> my first react app</h1>
+</div>
+);
+}
+
+// class based components.
+
+class App extends component
+{
+render()
+{
+return (
+<h1>
+this is a class component
+</h1>
+)
+}
+}
+
+
+render()
+{
+let dynamicname='react is mind blowing'
+return(
+<h1>
+{dynamicname}
+</h1>
+)
+}
+}
+
+class App extends Component(
+render( ) (
+let dynamcName='React is mind blowing •
+let brand = "PizzaHut"
+let description "Best pizza in town! ! "
+tet brand2 -
+let description2 = "Best pizza in town!!"
+return(
+eP1zza brand-{brand}
+<Pizza
+/div>
+<h1>{dynamicname}</h1>
+)
+}
+
+// function component.
+
+let Pizza= (props)->{
+return (
+
+<div class='pizza'>
+<h1> {props.brand.toUpperCase()}</h1>
+<p>{props.description}</p>
+</div>
+)
+}
+export default App;
+
+
+
+Pizza.js
+
+let Pizza= (props)->{
+console.log("i am coming from App.js", props);
+return (
+
+<div class='pizza'>
+<h1> {props.brand.toUpperCase()}</h1>
+<p>{props.description}</p>
+</div>
+)
+}
+export default Pizza;
+
+
+// inheritance
+
+class App extends Component
+{
+
+state = {
+// pizzaPlaces:
+dynamicName: "Pizza Hunter",
+// brand: "Pizza",
+// description: "best pizza in town"
+pizzaPlaces: [
+{ name:"Pizza Hut" "Dominoes", description: "Best Pizza in town"},
+{ name: "Dominoes", description: "Best Pizza in town"}, 
+{ name: "papa johns", description: "Pizza place"},
+{ name: "Oven bricks" description: "authentic Pizza}
+]
+}
+render(){
+return(
+<div>
+<h1>{this.state/dynamicname}</h1>
+{
+<pizza pizzaPlaces={this.state.pizzaPlaces}></Pizza>
+</div>
+)
+}
+
+state ={
+// pizzaPlaces:[]
+dynamicName: "Pizza Hunter",
+brand: "Pizza",
+description: "best pizza in town"
+}
+render(){
+return(
+<div>
+<h1>{this.state.brand}</h1>
+<pizza brand={this.state.brand} description={this.state.description}></pizza>
+<pizza brand={this.state.brand} description={this.state.description}></pizza>
+</div>
+)
+}
+
+
+
+
+
+
