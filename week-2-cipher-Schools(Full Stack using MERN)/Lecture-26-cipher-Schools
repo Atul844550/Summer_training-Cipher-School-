@@ -1,0 +1,41 @@
+server.js
+
+var http = require('http');
+// Hypertext transfer protocol
+let server = http.createServer((req,res)->{
+
+console.log( req) ;
+res.end("hello");
+
+
+res.writeHead(200, {'Content-Type': 'text/html'});
+res.end("<h1> hello from otherside</h1>");
+
+}
+)
+
+server.listen(5500, '127.0.0.1', ()->{
+console.log("started the server")
+}
+)
+
+
+console.log(req.url)
+if(req.url=='/home'){
+res.writeHead(200, {'Content-Type': 'text/html'})
+res.end('<h1> welcome user</h1>');
+}
+else if(req.url=='/about'){
+
+res.writeHead(200, {'Content-Type•: •text/plain'})
+res.end( 'Loren ipsum• ) ;
+{
+{'Content-Type•: •text/htmV})
+res.writeHead(2øø,
+res. end(
+}else {
+res.writeHead(4Ø4,
+res. end(
+{'Content-Type': •application/json•»
+'name' : • John'}")
+})
