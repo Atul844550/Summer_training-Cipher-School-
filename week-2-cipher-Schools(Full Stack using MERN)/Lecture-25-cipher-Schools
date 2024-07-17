@@ -1,0 +1,73 @@
+App.js
+
+
+// console. log(global);
+
+setTimeout( ()-> {
+console.log( 'Timed it for 2 seconds')
+}, 2000)
+
+setInterval( ()->{
+console.log('Timed interval for 2 seconds')
+},2000)
+
+let time = 0;
+let timer= setInterval( ()-> {
+time+=2;
+console.log(time, 'seconds has passed');
+if(time>10){
+clearInterval(timer);
+}
+}, 2000)
+
+
+// utility function
+console.log(__dirname);
+console.log(__filename);
+
+
+
+functionInNode.js
+
+function one(){
+console.log( 'Normal Function')
+}
+function three(callback){
+callBack();
+}
+three(two);
+let two=function(){
+console.log('two')
+}
+
+
+
+provider.js
+
+var counter = (arr)->{-
+}
+// es6 features
+let addition =(a,b)-> 'the sum is${a+b}';
+const constant= 9.76543;
+module.exports.counter =counter;
+module.exports.addition =addition;
+module.exports.constant =constant;
+
+
+var stuffs= require('./provider');
+// console.log(stuffs);
+let arr =[1,2,3,4,6,7,8,9]
+console.log(stuffs.counter(arr));
+console.log(stuffs.addition(arr[7], arr[4]));
+
+
+
+server.js
+
+var http = require('http');
+// Hypertext transfer protocol
+let server = http.createServer((request, response)->{
+}
+)
+.listen(5000, 'localhost',()->{
+console.log("started the server... listening at port 5000")
